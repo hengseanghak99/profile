@@ -29,11 +29,11 @@
     "blogDesc": {
       "type": "string"
     },
-    "blogContent": {
-      "type": "blocks"
-    },
     "authur": {
       "type": "string"
+    },
+    "contentBlog": {
+      "type": "blocks"
     }
   }
 }
