@@ -32,8 +32,18 @@
     "authur": {
       "type": "string"
     },
-    "contentBlog": {
-      "type": "blocks"
+    "CKE": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "category"
     }
   }
 }
